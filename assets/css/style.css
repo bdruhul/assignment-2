@@ -215,7 +215,7 @@ nav>.nav-list>.nav-items>.color-3 {
 
 }
 
-.banner-btn:hover{
+.banner-btn:hover {
     background-color: transparent;
     border: 1px solid var(--Black);
     color: var(--Black);
@@ -223,6 +223,113 @@ nav>.nav-list>.nav-items>.color-3 {
 }
 
 /* header part  */
+/* main part css start  */
+/* Standard-Curriculum */
+.Standard-Curriculum {
+    width: 100%;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.section-title {
+   padding: 60px 0px;
+    text-align: center;
+    font-family: var(--Quicksand);
+    font-size: 3rem;
+    line-height: 3.6rem;
+}
+
+.card-box {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28.29px;
+
+}
+
+.card {
+    width: 100%;
+    box-shadow: var(--box-shadow);
+    padding: 51px 41px 53px 40px;
+    text-align: center;
+    border-radius: 19px;
+}
+.card-1{
+    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0) 40%);
+    background-color: #fff;
+
+}
+.card-2{
+    background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0) 40%);
+    background-color: #fff;
+
+}
+.card-3{
+    background: linear-gradient(180deg, #F2E8FF 0%, rgba(255, 255, 255, 0) 40%);
+    background-color: #fff;
+
+}
+
+.card-title {
+    font-family: var(--Quicksand);
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    margin: 33.5px 0px;
+}
+
+.card-description {
+    font-family: var(--Raleway);
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #808080;
+    margin-bottom: 33.5px;
+}
+
+.card-btn {
+    font-family: var(--Raleway);
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 53.5px;
+}
+
+.sky-blue {
+    color: skyblue;
+}
+
+.orange {
+    color: var(--Orange);
+}
+
+.purple {
+    color: #8700FF;
+}
+
+.card-pre-next-btn {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+
+.card-pre-next-btn .pre-btn,
+.card-pre-next-btn .next-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--Orange);
+    margin: 0px 5px;
+
+}
+
+.card-pre-next-btn i {
+    font-size: 1.5rem;
+    color: var(--color-white);
+
+}
+
+/* Standard-Curriculum */
+/* main part css start  */
 /* Responsive part start */
 @media screen and (max-width: 576px) {
 
@@ -276,5 +383,13 @@ nav>.nav-list>.nav-items>.color-3 {
         width: 100%;
         padding-top: 20px;
     }
+
     /* banner part  */
+    /* Standard-Curriculum */
+    .card-box {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    /* Standard-Curriculum */
 }
