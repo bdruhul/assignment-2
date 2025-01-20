@@ -259,8 +259,7 @@ nav>.nav-list>.nav-items>.color-3 {
     .banner-content {
         flex-direction: column-reverse;
         text-align: center;
-
-
+        gap: 20px;
     }
 
     .banner-title {
