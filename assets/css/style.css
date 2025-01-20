@@ -166,8 +166,61 @@ nav>.nav-list>.nav-items>.color-3 {
 }
 
 /* mobile nav bar  */
-/* header part  */
+/* banner part  */
+/* banner part  */
+.banner-content {
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
 
+.banner-title {
+    font-family: var(--Quicksand);
+    font-size: 3.5rem;
+    line-height: 4rem;
+    font-weight: 700;
+    color: var(--Black);
+    margin-bottom: 24px;
+}
+
+.banner-title .orange {
+    display: block;
+    color: var(--Orange);
+}
+
+.banner-title .sky-blue {
+    color: var(--Sky-blue);
+}
+
+.banner-description {
+    font-family: var(--Quicksand);
+    font-size: 1.25rem;
+    color: var(--Black);
+    margin-bottom: 34px;
+}
+
+.banner-btn {
+    padding: 10px 47px;
+    background-color: var(--Black);
+    border-radius: 12px;
+    font-family: var(--Quicksand);
+    font-size: 1.25rem;
+    line-height: 1.9rem;
+    font-weight: 700;
+    color: var(--color-white);
+    border: 1px solid var(--Black);
+    transition: all linear 0.3s;
+
+}
+
+.banner-btn:hover{
+    background-color: transparent;
+    border: 1px solid var(--Black);
+    color: var(--Black);
+    transition: all linear 0.3s;
+}
+
+/* header part  */
 /* Responsive part start */
 @media screen and (max-width: 576px) {
 
@@ -199,4 +252,28 @@ nav>.nav-list>.nav-items>.color-3 {
     .mobile-nav-btn {
         display: block;
     }
+
+    /* banner part  */
+    .banner-content {
+        flex-direction: column-reverse;
+        text-align: center;
+
+
+    }
+
+    .banner-title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .banner-description {
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .banner-img img {
+        width: 100%;
+        padding-top: 20px;
+    }
+    /* banner part  */
 }
