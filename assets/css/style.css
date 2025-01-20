@@ -229,12 +229,12 @@ nav>.nav-list>.nav-items>.color-3 {
     width: 100%;
     background-image: url(../images/bg.png);
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     background-size: cover;
 }
 
 .section-title {
-   padding: 60px 0px;
+    padding: 60px 0px;
     text-align: center;
     font-family: var(--Quicksand);
     font-size: 3rem;
@@ -254,17 +254,20 @@ nav>.nav-list>.nav-items>.color-3 {
     text-align: center;
     border-radius: 19px;
 }
-.card-1{
+
+.card-1 {
     background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0) 40%);
     background-color: #fff;
 
 }
-.card-2{
+
+.card-2 {
     background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0) 40%);
     background-color: #fff;
 
 }
-.card-3{
+
+.card-3 {
     background: linear-gradient(180deg, #F2E8FF 0%, rgba(255, 255, 255, 0) 40%);
     background-color: #fff;
 
@@ -290,7 +293,7 @@ nav>.nav-list>.nav-items>.color-3 {
     font-family: var(--Raleway);
     font-size: 0.9rem;
     line-height: 1.8rem;
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 53.5px;
 }
 
