@@ -1,0 +1,194 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*---------- Variables ---------- */
+:root {
+    --Quicksand: "Quicksand", serif;
+    --Raleway: "Raleway", serif;
+    --Orange: #FEA301;
+    --Black: #111111;
+    --Sky-blue: #01ACFD;
+    --color-2: #05D4DF;
+    --color-3: #5D58EF;
+    --color-white: #fff;
+    --box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+
+
+}
+
+/*---------- Basic Styles ---------- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body,
+header,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p,
+span,
+table,
+footer,
+nav,
+div,
+section,
+button {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+/*---------- Basic Styles ---------- */
+/* Shared Styles  */
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.mobile-container {
+    max-width: 95%;
+    margin: 0 2.5%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-none-d {
+    display: none;
+}
+
+.header-nav,
+.nav-brands,
+.mobile-nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Shared Styles  */
+
+/* header part  */
+.header {
+    padding: 20px 0px;
+
+}
+
+.nav-brands-name {
+    font-family: var(--Quicksand);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: var(--Black);
+    text-align: left;
+    margin-left: 11px;
+}
+
+nav>.nav-list {
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav>.nav-list>.nav-items {
+    margin: 0px 1rem;
+
+}
+
+nav>.nav-list>.nav-items>.nav-link {
+    font-family: var(--Quicksand);
+    font-size: 1.25rem;
+    line-height: 1.9rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+nav>.nav-list>.nav-items>.orange {
+    color: var(--Orange);
+}
+
+nav>.nav-list>.nav-items>.sky-blue {
+    color: var(--Sky-blue);
+}
+
+nav>.nav-list>.nav-items>.color-2 {
+    color: var(--color-2);
+}
+
+nav>.nav-list>.nav-items>.color-3 {
+    color: var(--color-3);
+}
+
+/* header top btn  */
+.header-top-btn {
+    padding: 10px 60px;
+    background-color: var(--Orange);
+    border-radius: 12px;
+    font-family: var(--Quicksand);
+    font-size: 1.25rem;
+    line-height: 1.9rem;
+    font-weight: 600;
+    color: var(--color-white);
+}
+
+/* header top btn  */
+/* mobile nav bar  */
+.mobile-nav-btn {
+    display: none;
+}
+
+.mobile-nav-btn button i {
+    font-size: 2rem;
+}
+
+/* mobile nav bar  */
+/* header part  */
+
+/* Responsive part start */
+@media screen and (max-width: 576px) {
+
+    /* shared Styles */
+    .container {
+        max-width: 90%;
+        margin: 0 5%;
+    }
+
+    .d-none-m {
+        display: none;
+    }
+
+    /* shared Styles */
+    .header-nav {
+        width: 100%;
+        height: 46px;
+        padding: 12px 0px;
+    }
+
+    .mobile-nav-btn {
+        display: block;
+    }
+}
