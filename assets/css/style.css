@@ -163,6 +163,8 @@ nav>.nav-list>.nav-items>.color-3 {
 
 .mobile-nav-btn button i {
     font-size: 2rem;
+    color: var(--Black);
+    background-color: #fff;
 }
 
 /* mobile nav bar  */
