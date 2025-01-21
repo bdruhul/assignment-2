@@ -369,6 +369,7 @@ nav>.nav-list>.nav-items>.color-3 {
 /* Our Stories */
 .our-stories {
     width: 100%;
+    min-height: 300px;
     background:
         linear-gradient(to top, rgba(254, 163, 1, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%),
         url('../images/bg.png');
@@ -606,9 +607,14 @@ nav>.nav-list>.nav-items>.color-3 {
 
     /* banner part  */
     /* Standard-Curriculum */
+    .standard-curriculum {
+        width: 100%;
+        background-size: auto;
+
+    }
+
     .card-box {
         grid-template-columns: repeat(1, 1fr);
-
     }
 
     .section-title {
@@ -620,11 +626,7 @@ nav>.nav-list>.nav-items>.color-3 {
 
     /* Standard-Curriculum */
     /* our stories  */
-    .our-stories {
-        width: 100%;
-        background-size: 100% 100%;
-        background-position: 100% 100%;
-    }
+
 
     .our-stories-content-right {
         width: 100%;
@@ -695,8 +697,11 @@ nav>.nav-list>.nav-items>.color-3 {
     .footer-title {
         font-size: var(1.25rem);
         font-weight: 600;
-        margin-bottom: 27.57px;
-        margin-top: 1.25rem;
+        margin-top: 32px;
+    }
+
+    .footer-right-icons {
+        margin-top: 36.96px
     }
 
     .footer-nav-items {
