@@ -573,6 +573,7 @@ nav>.nav-list>.nav-items>.color-3 {
         width: 100%;
         padding-top: 20px;
     }
+
     .banner-btn {
         padding: 10px 37px;
         border-radius: 8px;
@@ -586,7 +587,8 @@ nav>.nav-list>.nav-items>.color-3 {
         grid-template-columns: repeat(1, 1fr);
 
     }
-    .section-title{
+
+    .section-title {
         padding: 40px 0px;
         padding-bottom: 20px;
         font-size: 1.625rem;
@@ -598,6 +600,7 @@ nav>.nav-list>.nav-items>.color-3 {
     .our-stories-content-right {
         width: 100%;
     }
+
     .card-img .card-date {
         bottom: -11px;
         left: 22px;
@@ -606,6 +609,7 @@ nav>.nav-list>.nav-items>.color-3 {
         font-size: 0.6rem;
         line-height: 1.1rem;
     }
+
     .story-card-title {
         padding: 22px 23px 17.12px 22.57px;
         font-family: var(--Quicksand);
@@ -613,51 +617,63 @@ nav>.nav-list>.nav-items>.color-3 {
         line-height: 1.1rem;
         color: #000;
     }
-    .right-cards{
+
+    .right-cards {
         border-radius: 0.75rem;
     }
+
     .card-img img {
 
-        border-top-left-radius:  0.75rem;
+        border-top-left-radius: 0.75rem;
         border-top-right-radius: 0.75rem;
     }
+
     .our-story-btn {
         padding-top: 20px;
         padding-bottom: 40px;
     }
-    .card-view-all{
+
+    .card-view-all {
         border-radius: 12px;
     }
+
     /* our stories  */
     /* footer section  */
-    .footer-content{
+    .footer-content {
         flex-direction: column;
     }
+
     .footer {
         padding: 60px 0px 60px 0px;
     }
-    .footer-logo img{
+
+    .footer-logo img {
         width: 70px;
         height: 70px;
     }
+
     .logo-link {
         font-size: 2.25rem;
         line-height: 2.1rem;
     }
+
     .footer-left-description {
         font-size: 1rem;
         margin-top: 22.77px;
         margin-left: 2px;
     }
+
     .footer-title {
         font-size: var(1.25rem);
         font-weight: 600;
         margin-bottom: 27.57px;
         margin-top: 1.25rem;
     }
+
     .footer-nav-items {
         padding: 9px 0px;
     }
+
     .footer-nav-link {
         font-size: 1.096rem;
     }
@@ -665,5 +681,6 @@ nav>.nav-list>.nav-items>.color-3 {
     .icon-link {
         margin-right: 5px;
     }
+
     /* footer section  */
 }
