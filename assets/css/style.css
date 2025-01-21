@@ -257,6 +257,7 @@ nav>.nav-list>.nav-items>.color-3 {
 
 .card-1 {
     background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0) 40%);
+    border: 1px solid rgba(222, 245, 255, 1);
     background-color: #fff;
 
 }
@@ -264,12 +265,14 @@ nav>.nav-list>.nav-items>.color-3 {
 .card-2 {
     background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0) 40%);
     background-color: #fff;
+    border: 1px solid rgba(255, 244, 220, 1);
 
 }
 
 .card-3 {
     background: linear-gradient(180deg, #F2E8FF 0%, rgba(255, 255, 255, 0) 40%);
     background-color: #fff;
+    border: 1px solid rgba(242, 232, 255, 1);
 
 }
 
