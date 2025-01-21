@@ -324,7 +324,7 @@ nav>.nav-list>.nav-items>.color-3 {
 }
 
 .card-btn {
-    font-family: var(--Raleway);
+    font-family: var(--Quicksand);
     font-size: 0.9rem;
     line-height: 1.8rem;
     font-weight: 700;
@@ -368,15 +368,9 @@ nav>.nav-list>.nav-items>.color-3 {
 /* Standard-Curriculum */
 /* Our Stories */
 .our-stories {
-    width: 100%;
-    min-height: 300px;
     background:
         linear-gradient(to top, rgba(254, 163, 1, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%),
         url('../images/bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
 }
 
 .our-stories-content {
@@ -625,9 +619,36 @@ nav>.nav-list>.nav-items>.color-3 {
         line-height: auto;
     }
 
+    .card-title {
+        font-family: var(--Quicksand);
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin: 22px 0px;
+        color: #202020;
+    }
+
+    .card-description {
+        font-size: 0.625rem;
+        line-height: 1.25rem;
+        margin-bottom: 22px;
+    }
+
+    .card-btn {
+        font-family: var(--Quicksand);
+        font-size: 0.625rem;
+        line-height: 1.25rem;
+        font-weight: 700;
+        margin-bottom: 36px;
+    }
+
     /* Standard-Curriculum */
     /* our stories  */
-
+    .our-stories {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 416% 100%;
+        background-position: 25% 60%;
+    }
 
     .our-stories-content-right {
         width: 100%;
@@ -721,182 +742,3 @@ nav>.nav-list>.nav-items>.color-3 {
 }
 
 /* responsive for mobile devises  */
-
-/* Responsive for tablets and landscape devices */
-    @media screen and (min-width:576.1px) and (max-width:768px) {
-            /* shared Styles */
-    .container {
-        max-width: 90%;
-        margin: 0 5%;
-    }
-    /* shared Styles */
-    .marquee {
-        font-size: 14px;
-        padding: 8px;
-    }
-
-    .header-top {
-        width: 100%;
-        max-height: 70px;
-        padding-bottom: 20px;
-        border-bottom: 1px solid var(--Orange);
-
-    }
-    .mobile-nav-btn {
-        display: block;
-    }
-    .nav-menu, .header-btn{
-        display: none;
-    }
-
-    /* banner part  */
-
-    .banner-content {
-        flex-direction: column-reverse;
-        text-align: center;
-        gap: 20px;
-    }
-    .banner-text{
-        max-width: 360px;
-        margin: 0 auto;
-    }
-
-    .banner-title {
-        font-size: 2rem;
-        line-height: 2.5rem;
-    }
-
-    .banner-description {
-        font-size: 0.9rem;
-        font-weight: 500;
-    }
-
-    .banner-img img {
-        width: 100%;
-        padding-top: 20px;
-    }
-
-    .banner-btn {
-        padding: 10px 37px;
-        border-radius: 8px;
-        font-size: 1rem;
-        line-height: 1.9rem;
-    }
-
-    /* banner part  */
-    /* Standard-Curriculum */
-    .standard-curriculum {
-        width: 100%;
-        background-size: 100% 100%;
-    }
-
-    .card-box {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .section-title {
-        font-size: 2.5rem;
-    }
-
-    /* Standard-Curriculum */
-    /* our stories  */
-    .our-stories-content-left{
-        display: none;
-    }
-
-    .d-none-d{
-        display: block;
-    }
-
-    .our-stories-content-right {
-        width: 100%;
-    }
-
-    .card-img .card-date {
-        bottom: -11px;
-        left: 22px;
-        padding: 5px 11.5px;
-        border-radius: 1.9rem;
-        font-size: 0.6rem;
-        line-height: 1.1rem;
-    }
-
-    .story-card-title {
-        padding: 22px 23px 17.12px 22.57px;
-        font-family: var(--Quicksand);
-        font-size: 0.6rem;
-        line-height: 1.1rem;
-        color: #000;
-    }
-
-    .right-cards {
-        border-radius: 0.75rem;
-    }
-
-    .card-img img {
-
-        border-top-left-radius: 0.75rem;
-        border-top-right-radius: 0.75rem;
-    }
-
-    .our-story-btn {
-        padding-top: 20px;
-        padding-bottom: 40px;
-    }
-
-    .card-view-all {
-        border-radius: 12px;
-    }
-
-    /* our stories  */
-    /* footer section  */
-    .footer-content {
-        flex-direction: column;
-    }
-
-    .footer {
-        padding: 60px 0px 60px 0px;
-    }
-
-    .footer-logo img {
-        width: 70px;
-        height: 70px;
-    }
-
-    .logo-link {
-        font-size: 2.25rem;
-        line-height: 2.1rem;
-    }
-
-    .footer-left-description {
-        font-size: 1rem;
-        margin-top: 22.77px;
-        margin-left: 2px;
-    }
-
-    .footer-title {
-        font-size: var(1.25rem);
-        font-weight: 600;
-        margin-top: 32px;
-    }
-
-    .footer-right-icons {
-        margin-top: 36.96px
-    }
-
-    .footer-nav-items {
-        padding: 9px 0px;
-    }
-
-    .footer-nav-link {
-        font-size: 1.096rem;
-    }
-
-    .icon-link {
-        margin-right: 5px;
-    }
-
-    /* footer section  */
-
-    }
-/* Responsive for tablets and landscape devices */
