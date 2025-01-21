@@ -620,6 +620,12 @@ nav>.nav-list>.nav-items>.color-3 {
 
     /* Standard-Curriculum */
     /* our stories  */
+    .our-stories {
+        width: 100%;
+        background-size: 100% 100%;
+        background-position: 100% 100%;
+    }
+
     .our-stories-content-right {
         width: 100%;
     }
