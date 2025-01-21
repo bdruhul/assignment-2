@@ -632,12 +632,15 @@ nav>.nav-list>.nav-items>.color-3 {
     }
 
     .card-description {
+        max-width: 193.81px;
+        margin: 0 auto;
         font-size: 0.625rem;
         line-height: 1.25rem;
         margin-bottom: 22px;
     }
 
     .card-btn {
+
         font-family: var(--Quicksand);
         font-size: 0.625rem;
         line-height: 1.25rem;
