@@ -225,7 +225,7 @@ nav>.nav-list>.nav-items>.color-3 {
 /* header part  */
 /* main part css start  */
 /* Standard-Curriculum */
-.Standard-Curriculum {
+.standard-curriculum {
     width: 100%;
     background-image: url(../images/bg.png);
     background-repeat: no-repeat;
@@ -335,6 +335,72 @@ nav>.nav-list>.nav-items>.color-3 {
 }
 
 /* Standard-Curriculum */
+/* Our Stories */
+.our-stories {
+    width: 100%;
+    background: linear-gradient(to top, rgba(254, 163, 1, 0.5) 0%, rgba(255, 255, 255, 1) 100%), url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.our-stories-main {
+    justify-content: space-between;
+    align-items: center;
+    gap: 19px;
+}
+
+.our-stories-content-left {
+    width: 50%;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+.our-stories-content-left img {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+}
+.our-stories-content-right{
+    width: 50%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+.right-cards{
+    background-color: #fff;
+    border-radius: 1rem;
+}
+    .card-img{
+        position: relative;
+    }
+    .card-img p{
+        position: absolute;
+        bottom: -19px;
+        left: 38.5px;
+        padding: 10px 19px;
+        border-radius: 3rem;
+        background-color: #95B226;
+        font-family: var(--Raleway);
+        font-size: 0.95rem;
+        line-height: 1.8rem;
+        font-weight: 500;
+        color: var(--color-white);
+    }
+
+.card-img img{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.card-title{
+            padding: 19.7px 38.79px 28.76px 37.91px;
+            font-family: var(--Quicksand);
+            font-size: 0.934rem;
+            line-height: 1.9rem;
+            color:#000;
+        }
+/* Our Stories */
 /* main part css start  */
 /* Responsive part start */
 @media screen and (max-width: 576px) {
