@@ -328,7 +328,6 @@ nav>.nav-list>.nav-items>.color-3 {
     font-size: 0.9rem;
     line-height: 1.8rem;
     font-weight: 700;
-    margin-bottom: 53.5px;
 }
 
 .sky-blue {
@@ -619,6 +618,11 @@ nav>.nav-list>.nav-items>.color-3 {
         line-height: auto;
     }
 
+    .card {
+        padding: 36px 28px;
+    }
+
+
     .card-title {
         font-family: var(--Quicksand);
         font-size: 1rem;
@@ -638,7 +642,6 @@ nav>.nav-list>.nav-items>.color-3 {
         font-size: 0.625rem;
         line-height: 1.25rem;
         font-weight: 700;
-        margin-bottom: 36px;
     }
 
     /* Standard-Curriculum */
