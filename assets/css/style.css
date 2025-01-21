@@ -97,6 +97,24 @@ button {
 /* Shared Styles  */
 
 /* header part  */
+
+/* marquee  */
+
+/* Marquee container for responsiveness */
+.marquee {
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    background: var(--Orange);
+    color: var(--color-white);
+    padding: 10px;
+    font-family: var(--Quicksand);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* marquee  */
+
 .header {
     padding: 20px 0px;
 
@@ -534,6 +552,11 @@ nav>.nav-list>.nav-items>.color-3 {
     }
 
     /* shared Styles */
+    .marquee {
+        font-size: 12px;
+        padding: 6px;
+    }
+
     .header-top {
         width: 100%;
         max-height: 70px;
