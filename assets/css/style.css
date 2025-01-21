@@ -584,11 +584,14 @@ nav>.nav-list>.nav-items>.color-3 {
     .banner-title {
         font-size: 2rem;
         line-height: 2.5rem;
+        max-width: 357px;
     }
 
     .banner-description {
         font-size: 0.9rem;
         font-weight: 500;
+        max-width: 357px;
+
     }
 
     .banner-img img {
