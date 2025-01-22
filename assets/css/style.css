@@ -459,6 +459,19 @@ nav>.nav-list>.nav-items>.color-3 {
     padding-bottom: 60px;
 }
 
+.card-img > .bg-1{
+    background-color: #3CD8E8;
+}
+.card-img > .bg-3{
+    background-color: #5D58F0;
+}
+.card-img > .bg-5{
+    background-color: #3CD8E8;
+}
+.card-img > .bg-7{
+    background-color: #5D58F0;
+}
+
 /* Our Stories */
 /* main part css start  */
 /* footer section css  */
